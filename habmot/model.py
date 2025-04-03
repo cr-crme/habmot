@@ -149,7 +149,7 @@ class Model:
 
             if save_folder is not None:
                 header = [name.to_string() for name in self._biomodel.nameDof()]
-                header += [name.to_string() + "_" + "XYZ"[i] for i in range(3) for name in self._biomodel.markerNames()]
+                header += [name.to_string() + "_" + "XYZ"[i] for name in self._biomodel.markerNames() for i in range(3)]
 
                 multiplier = np.ones(len(header))
                 for name in header:

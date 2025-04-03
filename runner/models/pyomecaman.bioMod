@@ -188,7 +188,7 @@ version    4
         mesh    -0.09267    0.12714    -0.47113
     endsegment
 
-    marker LefttWrist
+    marker LeftWrist
         parent PostLeftArm
         position -0.13229    0.12429    -0.49310
     endmarker
